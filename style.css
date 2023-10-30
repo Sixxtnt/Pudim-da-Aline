@@ -1,0 +1,225 @@
+body{
+   
+}
+
+
+
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    background:url(./img/bgini.jfif);
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.link{
+
+
+
+}
+
+.link::before{
+ content: "★";
+
+}
+
+.link::after{
+    content: "★";
+   
+   }
+
+
+nav{
+    position: absolute;
+    top: 126px;
+    right: 0;
+
+}
+
+nav li{
+ display: inline;
+ margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    
+    text-decoration: underline;
+
+}
+
+
+.banner{
+    width: 100%;
+}
+
+
+
+.principal{
+padding: 3em 0 ;
+
+width: 940px;
+margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+   
+    
+}
+
+
+.titulo-principal::first-letter{
+
+font-weight: bold;
+
+
+}
+
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+.mapa{
+    padding: 3em 0;
+
+
+background: linear-gradient(#fefefe,#888888);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conteudo{
+
+width: 940px;
+margin: 0 auto;
+}
+
+
+.beneficios{
+  padding: 3em 0;
+background: #ffd072;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.itens{
+    line-height: 1.5;
+   
+
+}
+
+.itens:first-child{
+font-weight: bold;
+
+}
+
+.itens::before{
+
+content: "★";
+
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagem-beneficios{
+    width: 60%;
+}
+
+.instagram-media{
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background:url(./img/bg.jpg);
+    padding: 40px 0;
+   
+    
+}
+
+.copy{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+width: auto;
+    
+    
+
+}
+h1{
+text-align: center;
+}
+nav{
+position: static;
+}
+
+.lista-beneficios, .imagembeneficios{
+
+
+}
+}

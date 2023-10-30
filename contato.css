@@ -1,0 +1,151 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    background:url(./img/bgini.jfif);
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.link::before{
+
+    content: "★";
+
+}
+.link::after{
+
+    content: "★";
+
+}
+
+
+nav{
+    position: absolute;
+    top: 126px;
+    right: 0;
+
+}
+
+nav li{
+ display: inline;
+ margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px  25px;
+    
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(187, 150, 81);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+
+}
+.enviar:hover{
+    background-color: rgb(212, 142, 35);
+    
+}
+
+
+table{
+    margin: 20px  0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid 1px #000000;
+    padding: 8px 15px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background:url(./img/bg.jpg);
+    padding: 40px 0;
+   
+    
+}
+
+.copy{
+    color: #f8f8f8;
+    font-size: 13px;
+    margin: 20px 0;
+
+}
+
+.redes{
+
+text-align: center;
+
+font-size: 50px;
+}
+
+.img-link{
+
+margin: 0 0 0 300px;
+
+
+}
+.img-lado{
+
+display: flex;
+
+
+
+}
